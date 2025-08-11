@@ -6,7 +6,7 @@ Currency Converter API — простий конвертер валют на Fas
 
 1. Клонуйте репозиторій:
 	```bash
-	git clone https://github.com/your-username/Currency-Converter-API.git
+	git clone https://github.com/maksymhrushytskyi/Currency-Converter-API.git
 	cd Currency-Converter-API
 	```
 2. Встановіть залежності:
