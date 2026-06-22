@@ -1,39 +1,19 @@
 # Currency-Converter-API
+Currency Converter API is a simple currency conversion API built with FastAPI.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/maksymhrushytskyi/Currency-Converter-API.git
+   cd Currency-Converter-API
 
-Currency Converter API — простий конвертер валют на FastAPI.
+2. Install the dependencies:
 
-## Встановлення
+pip install -r requirements.txt
 
-1. Клонуйте репозиторій:
-	```bash
-	git clone https://github.com/maksymhrushytskyi/Currency-Converter-API.git
-	cd Currency-Converter-API
-	```
-2. Встановіть залежності:
-	```bash
-	pip install -r requirements.txt
-	```
-	або вручну:
-	```bash
-	pip install fastapi uvicorn python-dotenv requests
-	```
-3. Створіть файл `.env` у корені проєкту та додайте ваш API ключ:
-	```env
-	API_EXCHANGERATE=your_api_key_here
-	```
+    or manually:
 
-## Запуск
+pip install fastapi uvicorn python-dotenv requests
 
-Запустіть сервер у режимі розробки:
-```bash
-uvicorn main:app --reload
-```
-Сервер буде доступний за адресою: http://127.0.0.1:8000/
+3. Create a .env file in the project root and add your API key:
 
-## Використання API
-
-- Головна сторінка (приклад):
-  - `GET /` — повертає поточний курс USD до UAH у форматі JSON.
-
----
-**Примітка:** Не забувайте додавати `.env` у `.gitignore`, щоб не зберігати секрети у репозиторії.
+API_KEY=your_api_key_here
